@@ -1,6 +1,6 @@
 from django.http import HttpResponse
 
-def home(request):
+def homepage(request):
     return HttpResponse("Home page")
 
 def about(request):
