@@ -8,4 +8,9 @@ class Article(models.Model):
     date = models.DateTimeField(auto_now_add = True)
 
     #add Thumb
-    # add Author
+    # add 
+    
+
+
+    def __str__(self):
+        return self.title
